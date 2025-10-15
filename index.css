@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    color: #808080;
+}
+
+:root {
+    --primary: #007bff;
+    --secondary: #5f5f5f;
+    --bg-light: #f7f9fc;
+    --font-main: "Poppins", sans-serif;
+}
+
+section {
+    padding: 40px 10%;
+}
+
+.navbar {
+    background-color: #ebf1f7;
+    align-items: center;
+    display: flex;
+    padding: 10px 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    /* margin: 0 ; */
+}
+
+.logo {
+    color: #1e4ad8;
+    align-items: center;
+    font-size: 40px;
+    /* padding: 0px 0px 0px 10px; */
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+.right-side-content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    word-spacing: 100px;
+    gap: 10px;
+    padding: 10px;
+    
+    list-style: none;
+}
+.active{
+    color: #007bff;
+}
+#aboutus{
+    text-decoration: none;
+    color: #070808;
+}
+
+#inactive{
+    text-decoration: none;
+    color: #070808; 
+}
+
+#inactive-blog{
+    text-decoration: none;
+    color: #070808; 
+}
+
+
+.right-side-content ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.right-side-content button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #f7f3f3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.right-side-content ul li a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: #8f8fe7;
+
+}
+
+.service {
+    background-color: #d6ddef;
+    padding: 50px;
+    display: flex;
+}
+.accent{
+    color: #0c78ea;
+}
+
+.content-first {
+    background-color: #d6ddef;
+    padding: 100px;
+    margin: 10px;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.content-first h1 {
+    margin-bottom: 60px;
+    font-size:35px;
+}
+
+.content-first p {
+    margin-bottom: 60px;
+}
+
+.img-first {
+    margin: 10px;
+}
+
+.b1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+}
+
+.b2 {
+    padding: 10px 20px;
+
+}
+
+.features {
+    display: flex;
+    gap: 50px;
+}
+
+.feature-common {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* .web-img{
+    border-radius: 10%;
+    background-color: #b9caf3;
+} */
+
+.feature-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.portfolio {
+    padding: 100px;
+    background-color: #ffff;
+}
+
+.clients-desc {
+    justify-content: center;
+}
+
+.desc-line1 {
+    font-weight: 1000;
+    font-size: x-large;
+    margin-bottom: 20px;
+    color: #070808;
+
+}
+.desc-line2{
+    font-size: small;
+}
+.portfolio-desc {
+    gap: 100px;
+    text-align: center;
+    
+}
+
+.clients-first {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-split {
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+.clients {
+    background-color: #ffff;
+    display: flex;
+}
+.happy-img{
+    background-color: #026846;
+    height: 30px;
+    width: 30px;
+    
+   
+    border-radius: 50%;
+}
+.happy-img-sec{
+    background-color: #023060;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.happy-img-thr{
+    background-color: #5e015e;
+    height: 30px;
+    width: 25px;
+   
+    border-radius: 50%;
+}
+.clients-desc-one{
+    font-size: large;
+    margin-bottom: 15px;
+}
+.clients-desc-two
+{
+    font-size: smaller;
+}
+
+.clients-first-desc-bottom {
+    margin-top: 80px;
+    font-size: small;
+}
+
+.clients-first-desc span {
+    font-size: larger;
+    font-weight: bold;
+    color: #081e61;
+}
+
+/* .clients-img {
+    width: 700px;
+    height: 500px;
+} */
+ .phone{
+  width: min(520px, 42vw);      
+  height: auto;
+}
+.cards{
+    width: min(520px, 42vw);      
+  height: 300px;
+}
+
+.cleints-img-third img{
+    width: 700px;
+    height: auto;
+}
+
+.box{
+    padding: 200px;
+    display: flex;
+    gap: 70px;
+    margin-left: 80px;
+    
+
+}
+.box-left{
+    background-color: #f5f6f7;
+    padding: 50px 50px;
+    border-radius: 7%;
+    text-align: center;
+}
+.box-btn-left{
+    align-content: center;
+    background-color: #007bff;
+    padding: 20px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.box-content{
+    font-size: larger;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #070808;
+
+}
+.box-right{
+    background-color: #0c78ea;
+    padding: 50px 50px;
+     border-radius: 7%;
+     text-align: center;
+}
+.box-content-fir{
+    font-size: x-small;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #070808;
+}
+.box-btn-right{
+    align-content: center;
+    background-color: #eef2f6;
+    padding: 20px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.company-name{
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
+.company-img{
+    display: flex;
+    gap: 100px;
+}
+.search{
+    background-color: #8aa9ef;
+    padding: 150px;
+    ;
+}
+.search-desc{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.search-form{
+    display: flex;
+    justify-content: center;
+}
+.search-form input{
+
+  width: 400px;
+  height: 27px;
+  padding: 28px 30px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+}
+.search-btn {
+  width: 180px;
+  height: 55px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.search-bar{
+    padding: 10px 10px;
+}
+.footer{
+    display: flex;
+    gap: 60px;
+}
+
+.footer-logo h2{
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.footer-logo p{
+    font-size: small;
+    margin-bottom: 20px;
+}
+.footer-aboutus h2{
+    margin-bottom: 20px;
+}
+
+.footer-contactus h2{
+    margin-bottom: 20px;
+}
+.footer-icons{
+  display: flex;
+  justify-content: flex-end;    
+  gap: 20px;
+  padding: 24px 0;  
+  color: #070808;   
+  margin-top: 90px;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
